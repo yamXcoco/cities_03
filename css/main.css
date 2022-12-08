@@ -93,6 +93,7 @@ body {
     padding: 16px 0;
 }
 
+/* item_03 */
 .container .item_03 {
     display: flex;
     justify-content: space-between;
@@ -103,6 +104,9 @@ body {
     background-color: #ddd;
     margin: 0 auto;
     border-radius: 240px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
  .container .item_03 .text {
     width: 300px;
@@ -110,6 +114,16 @@ body {
  }
  .container .item_03 .text h2 {
     padding: 16px 0;
+ }
+
+ .container .item_03 .photo.london{
+    background-image: url(../images/london_b.jpg);
+ }
+ .container .item_03 .photo.paris{
+    background-image: url(../images/paris_b.jpg);
+ }
+ .container .item_03 .photo.tokyo{
+    background-image: url(../images/tokyo_b.jpg);
  }
 
 /* bottom */
