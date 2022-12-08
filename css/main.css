@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+ul {
+    list-style: none;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+body {
+    /* color: red; */
+    font-family: 'Nanum Gothic', sans-serif;
+    color: #333;
+}
+.head {
+
+}
+.head h1 {
+    height: 160px;
+    font-size: 50px;
+    color: #111;
+    /* 패딩이랑 텍얼센터말고 말고 플렉스로 중앙정렬 */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* 모바일로 화면 축소해서 보면 페딩없으면 공간1도없어서 안이쁨 패딩꼭주기*/
+    padding: 20px;
+    /* text-align: center; */
+}
+.nav {
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+.nav ul {
+    width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+}
+.nav ul li a{
+    display: block;
+    height: 70px;
+    padding: 0 30px;
+    /* line-height: 70px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* 글씨 뚠뚠하게 */
+    font-weight: 900;
+}
+.container {
+    width: 1000px;
+    padding: 20px;
+    margin: 0 auto;
+}
+.container .item li {
+    display: flex;
+    gap: 50px;
+    /* li들 간격 떨어뜨리기 */
+}
+.bottom{
+    height: 140px;
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+    padding: 20px;
+    border-top: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

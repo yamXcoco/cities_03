@@ -24,6 +24,7 @@ body {
      /* 플렉스랑 세트 */
     /* justify-content: space-evenly; */
     /* justify-content: space-around; */
+    /* justify-content: center; */
     justify-content: space-between;
     /* flex-wrap: wrap;
     박스가 width를 초과하면 아래에 생성 */
